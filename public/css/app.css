@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: blue;
+}
