@@ -3,5 +3,11 @@
 @section('title', "Character")
 
 @section('content')
-    <h1>Sono il content di character</h1>
+
+    <div id="character">
+
+        <h1>Sono il content di character</h1>
+
+    </div>
+    
 @endsection

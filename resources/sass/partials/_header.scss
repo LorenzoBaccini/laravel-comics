@@ -1,14 +1,46 @@
 header {
     text-align: center;
-    ul {
-        list-style-type: none;
-        li {
-            display: inline-block;
-            a {
-                text-decoration: none;
 
-                &:hover {
-                    color: blue;
+    .top-nav {
+        background-color: $main-color;
+        .top-container {
+            margin: 0 auto;
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+            div {
+                padding: 10px;
+                font-size: 12px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+    }
+
+    #logo {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px 30px;
+    }
+
+    .nav-bar {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        ul {
+            list-style-type: none;
+            li {
+                display: inline-block;
+                a {
+                    text-decoration: none;
+    
+                    &:hover {
+                        color: blue;
+                    }
+                    &:visited {
+                        color: black;
+                    }
                 }
             }
         }
